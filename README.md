@@ -1,7 +1,7 @@
 # Schizophrenia Classification Using Resting-State EEG and Machine Learning
 This project aims to classify Schizophrenia (SCZ) patients and healthy controls (HC) using resting-state EEG (rsEEG) signals. The pipeline involves preprocessing EEG data, extracting relevant features, and applying multiple machine learning models to compare their classification performance.
 
----
+
 
 
 ## Workflow
@@ -11,7 +11,7 @@ The project follows these major steps:
 -Model Training & Evaluation – Using various ML models to classify schizophrenia vs. healthy controls.
 -Performance Comparison – Evaluating models using metrics such as Precision, F1-score, recall and confusion matrix.
   
----
+
 
 
 ## Dataset
@@ -21,8 +21,7 @@ The project follows these major steps:
   - Total 28 files with .edf format
     -14 Schizophrenia
     -14 Healthy Control
-    
----
+
 
 
 ## Preprocessing
@@ -32,7 +31,7 @@ The project follows these major steps:
 - Epoching: Segment the continuous data into epochs.
 - Autoreject: Autoreject to remove any remaining bad epochs.
   
----
+
 
 
 ## Feature Extraction
@@ -40,7 +39,7 @@ The following features were extracted from EEG signals:
 - Frequency-Domain Features: Gamma Power and Relative Gamma Power.
 - Connectivity Measures: Connectivity,Phase-Locking Value (PLV) and Coherence.
 
----
+
 
 
 ## Machine Learning Models
@@ -52,7 +51,6 @@ The extracted features were used to train and evaluate the following models:
 - Support Vector Machine (SVM)  
 Each model was optimized using Grid Search with cross-validation.
 
----
 
 
 ## Results & Performance Comparison
@@ -64,7 +62,7 @@ The models were evaluated using:
 
 ![ml table image](https://github.com/user-attachments/assets/91fa492e-8771-4eb1-a04b-e643b722799e)
 
----
+
 
 
 ## Key Findings: 
