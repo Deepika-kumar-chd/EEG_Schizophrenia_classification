@@ -6,10 +6,10 @@ This project aims to classify Schizophrenia (SCZ) patients and healthy controls 
 
 ## Workflow
 The project follows these major steps:
--EEG Preprocessing – Cleaning EEG signals using filtering and artifact removal techniques.
--Feature Extraction – Computing frequency-domain and connectivity-based features.
--Model Training & Evaluation – Using various ML models to classify schizophrenia vs. healthy controls.
--Performance Comparison – Evaluating models using metrics such as Precision, F1-score, recall and confusion matrix.
+- EEG Preprocessing – Cleaning EEG signals using filtering and artifact removal techniques.
+- Feature Extraction – Computing frequency-domain and connectivity-based features.
+- Model Training & Evaluation – Using various ML models to classify schizophrenia vs. healthy controls.
+- Performance Comparison – Evaluating models using metrics such as Precision, F1-score, recall and confusion matrix.
   
 
 
@@ -48,7 +48,8 @@ The extracted features were used to train and evaluate the following models:
 - k-Nearest Neighbors (k-NN)
 - Decision Tree (DT)
 - Random Forest Classifier (RF)
-- Support Vector Machine (SVM)  
+- Support Vector Machine (SVM)
+  
 Each model was optimized using Grid Search with cross-validation.
 
 
