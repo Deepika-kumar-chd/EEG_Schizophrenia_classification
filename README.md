@@ -19,8 +19,8 @@ The project follows these major steps:
 - **Description**: The EEG dataset consists of resting-state recordings from both Schizophrenia patients and healthy controls.Fifteen minutes of EEG data were recorded in all subjects during an eyes-closed resting state condition. Data were acquired with the sampling frequency of 250 Hz using the standard 10–20 EEG montage with 19 EEG channels: Fp1, Fp2, F7, F3, Fz, F4, F8, T3, C3, Cz, C4, T4, T5, P3, Pz, P4, T6, O1, O2.
 - **Structure**:
   - Total 28 files with .edf format
-    -14 Schizophrenia
-    -14 Healthy Control
+    - 14 Schizophrenia
+    - 14 Healthy Control
 
 
 
@@ -61,7 +61,7 @@ The models were evaluated using:
 - F1-score
 - Accuracy
 
-![ml table image](https://github.com/user-attachments/assets/91fa492e-8771-4eb1-a04b-e643b722799e)
+![comparison table](https://github.com/user-attachments/assets/cd3aaa4e-186a-4deb-a58b-247f905999ba)
 
 
 
